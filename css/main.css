@@ -1,0 +1,213 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    padding-top: 50px;
+    background: #e5e5e5;
+    color: #333;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+#main-carousel .item {
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#main-carousel .item1 {
+    background-image: url("../images/carousel/imagen1.jpg");
+}
+
+#main-carousel .item2 {
+    background-image: url("../images/carousel/imagen2.jpg");
+}
+
+#main-carousel .item3 {
+    background-image: url("../images/carousel/imagen3.jpg");
+}
+
+#main-carousel .carousel-indicators {
+    bottom: 60px;
+}
+
+main {
+    position: relative;
+    margin-top: -40px;
+}
+
+.section .title {
+    padding: 40px 0;
+}
+
+.section .title h2 {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 18px;
+}
+
+.section .title p {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#services {
+    background-color: #ffffff;
+    border-radius: 5px 5px 0 0;
+}
+
+#services .box {
+    padding-bottom: 40px;
+}
+
+#services .box p.lead {
+    padding-top: 28px;
+    margin-bottom: 7px;
+}
+
+#services .box p {
+    padding: 0 15px;
+}
+
+#portfolio {
+    background-color: #F3F3F3;
+}
+
+#portfolio .title .btn {
+    margin: 0 5px 10px;
+}
+
+#portfolio .thumbnail {
+    padding: 10px;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+
+#portfolio .thumbnail p {
+    padding-top: 10px;
+}
+
+#pricing {
+    background-color:white;
+}
+
+#pricing .box {
+    padding:15px;
+    margin-bottom:30px;
+    background-color:#F9F9F9;
+    box-shadow:1px 1px 1px #777777;
+}
+
+#pricing .box p,
+#pricing .box h3,
+#pricing .box ul li {
+    margin:0;
+    padding:10px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+#pricing .box h3 {
+    color:#5F677A;
+    font-size: 48px;
+}
+
+#pricing .box .btn{
+    margin:10px 0;
+}
+
+#contact {
+    background-color:#F3F3F3;
+    border-radius: 0 0 5px 5px;
+}
+
+ #contact .form-group .col{
+    margin-bottom:5px;
+ }
+
+#contact .box-contact {
+    padding:40px 20px;
+}
+
+#contact .icono {
+    border: 1px solid #CCCCCC;
+    border-radius: 50%;
+    display: block;
+    height: 36px;
+    width: 36px;
+}
+
+#contact ul li {
+    padding:0 2px;
+}
+
+#contact .icono {
+    display: block;
+    overflow:hidden;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-image: url(../images/sprite.png);
+}
+
+#contact .fb {
+    background-image: url(../images/icon-7.png);
+}
+
+#contact .gp {
+    background-image: url(../images/icon-9.png);
+}
+
+#contact .pi {
+    background-image: url(../images/icon-11.png);
+}
+
+#contact .in {
+    background-image: url(../images/icon-8.png);
+}
+#contact .tw {
+    background-image: url(../images/icon-10.png);
+}
+
+#contact .yt {
+    background-image: url(../images/icon-12.png);
+}
+
+footer{
+    margin:35px;
+}
+
+footer p{
+    color:#9B999A;
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    .section {
+        overflow: hidden;
+        padding: 0 15px 25px;
+    }
+
+    #contact ul li {
+        padding:0 5px;
+    }
+
+
+    #main-carousel .item {
+        height: 550px;
+    }
+
+    .section .title p {
+        max-width: 50%;
+    }
+
+     #contact .form-group .col{
+        margin-bottom:0px;
+    }
+
+}
